@@ -1,15 +1,11 @@
-import { ReadLine } from 'readline';
-const Readline: any = import('readline-sync')
-
 interface Matrix {
-    matrix: [[]];
+    matrix: string[][];
     min: number;
     max: number
 }
 
 interface Environment {
-    value: {}
-
+    value: string[]
 }
 
 interface EnvironmentField {
