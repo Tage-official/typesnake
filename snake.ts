@@ -5,7 +5,7 @@ interface Matrix {
 }
 
 interface Environment {
-    value: string[]
+    value: EnvironmentField[]
 }
 
 interface EnvironmentField {
