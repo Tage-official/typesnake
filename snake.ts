@@ -13,3 +13,8 @@ interface EnvironmentField {
     x: number;
     y: number
 }
+
+interface Point {
+    x: number;
+    y: number
+}
