@@ -10,7 +10,7 @@ interface Environment {
 
 interface EnvironmentField {
     value: '#';
-    coordinates: Point
+    coordinate: Point
 }
 
 interface Point {
