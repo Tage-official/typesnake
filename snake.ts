@@ -1,15 +1,19 @@
-const readline:any = require('readline-sync')
-const max:number = readline.question('Enter field size: ') 
-const min:number = 0
+import { ReadLine } from 'readline';
+const Readline: any = import('readline-sync')
 
 interface Matrix {
-    ground:[[]];
+    matrix: [[]];
+    min: number;
+    max: number
 }
 
 interface Environment {
-    value: ' '
+    value: {}
+
 }
 
 interface EnvironmentField {
-    value:'#'
+    value: '#';
+    x: number;
+    y: number
 }
