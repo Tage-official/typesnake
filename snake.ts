@@ -56,7 +56,7 @@ let snake: Snake = {
 let ground: Matrix = {
   matrix: [[]],
   min: 0,
-  max: 15,
+  max: 16,
 };
 const lvl1: Environment = {
   value: [
