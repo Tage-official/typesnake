@@ -18,6 +18,7 @@ interface Point {
   y: number;
 }
 
+
 interface Snake {
   head: SnakeBody;
   body: SnakeBody[];
