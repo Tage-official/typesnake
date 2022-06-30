@@ -18,6 +18,50 @@ interface Point {
   y: number;
 }
 
+
+interface Snake {
+  head: SnakeBody;
+  body: SnakeBody[];
+}
+
+interface SnakeBody {
+  value: string;
+  coordinate: Point;
+}
+
+let snake: Snake = {
+  head: {
+    value: "@",
+    coordinate: {
+      x: 8,
+      y: 8,
+    },
+  },
+  body: [
+    {
+      value: "@",
+      coordinate: {
+        x: 9,
+        y: 8,
+      },
+    },
+    {
+      value: "@",
+      coordinate: {
+        x: 10,
+        y: 8,
+      },
+    },
+    {
+      value: "@",
+      coordinate: {
+        x: 11,
+        y: 8,
+      },
+    },
+  ],
+};
+
 let ground: Matrix = {
   matrix: [[]],
   min: 0,
