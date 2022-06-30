@@ -51,6 +51,13 @@ let snake: Snake = {
         y: 8,
       },
     },
+    {
+      value: "@",
+      coordinate: {
+        x: 11,
+        y: 8,
+      },
+    },
   ],
 };
 
