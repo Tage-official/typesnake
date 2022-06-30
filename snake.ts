@@ -19,6 +19,7 @@ interface Point {
 }
 
 interface Snake {
+  head: SnakeBody;
   body: SnakeBody[];
 }
 
@@ -28,14 +29,14 @@ interface SnakeBody {
 }
 
 let snake: Snake = {
-  body: [
-    {
-      value: "@",
-      coordinate: {
-        x: 8,
-        y: 8,
-      },
+  head: {
+    value: "@",
+    coordinate: {
+      x: 8,
+      y: 8,
     },
+  },
+  body: [
     {
       value: "@",
       coordinate: {
